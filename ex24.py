@@ -4,7 +4,7 @@ print 'you\'d need to know \' about escapes with  \\ that do \n new lines and \t
 poem= """
 \t The loverly world
 with logic so firmly planted cannot discern\n
-the needs of love nor comprehend passoin freom intuition 
+the needs of love nor comprehend passion from intuition 
 and requires an explanation
 \n\t\t where there is none."""
 print "-----------------------"

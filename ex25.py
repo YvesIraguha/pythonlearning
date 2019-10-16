@@ -6,7 +6,7 @@ def sort_words(words):
 	"""Sorts the words."""
 	return sorted(words)
 def print_first_word(words):
-	"""prints the frist word after popping it off."""
+	"""prints the first word after popping it off."""
 	word=words.pop(0)
 	print word
 def print_last_word(words):
@@ -29,3 +29,5 @@ def print_first_and_last_sorted(sentence):
 	words=sort_sentence(sentence)
 	print_first_word(words)
 	print_last_word(words)
+
+print_first_and_last_sorted("Hello I am by names of")
